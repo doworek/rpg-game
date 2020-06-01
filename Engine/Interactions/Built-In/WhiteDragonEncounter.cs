@@ -11,20 +11,18 @@ namespace Game.Engine.Interactions
     [Serializable]
     class WhiteDragonEncounter : ListBoxInteraction
     {
-        private int visited = 0; // how many times have you visited this place?
+        private PrincessEncounter princess;
         public IWhiteDragonStrategy Strategy { get; set; } // store strategy 
-        public WhiteDragonEncounter(GameSession ses) : base(ses)
+        public WhiteDragonEncounter(GameSession ses, PrincessEncounter princess) : base(ses)
         {
             Enterable = false;
             Name = "interaction0008";
             Strategy = new WhiteDragonDefaultStrategy(); // start with default strategy
-
+            this.princess = princess;
         }
         protected override void RunContent()
         {
-            Strategy.Execute(parentSession); // execute strategy
-
-           
+            Strategy.Execute(parentSession, princess); // execute strategy
         }
     }
 }

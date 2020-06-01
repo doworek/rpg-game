@@ -37,7 +37,8 @@ namespace Game.Engine
             new GrowingStoneArmor(),
             new AncientSword(),
             new MagicSword(),
-            new GoldenSword()
+            new GoldenSword(),
+            new GoldenKey()
         };
 
         private static List<ItemFactory> itemFactories = new List<ItemFactory>()

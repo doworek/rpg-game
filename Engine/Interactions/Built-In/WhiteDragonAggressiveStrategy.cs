@@ -8,9 +8,10 @@ using Game.Engine.Monsters.MonsterFactories;
 
 namespace Game.Engine.Interactions.Built_In
 {
+    //when you stole gold from Gnome
     class WhiteDragonAggressiveStrategy : IWhiteDragonStrategy
     {
-        public void Execute(GameSession parentSession)
+        public void Execute(GameSession parentSession, PrincessEncounter princess)
         {
             int GetListBoxChoice(List<string> choices)
             {
@@ -26,18 +27,21 @@ namespace Game.Engine.Interactions.Built_In
                 case 0:
                     parentSession.SendText("A key? I've heard you stole gold from a Gnome. You want my gold too, don't you? You won't leave here alive!");
                     parentSession.FightThisMonster(whiteDragonFight);
-                    parentSession.SendText("\nYou defeated White Dragon! You take all the gold but...there's no key.");
+                    parentSession.SendText("\nYou defeated White Dragon! But...there's no key.");
+                    princess.Strategy = new PrincessGratefulStrategy();
                     break;
                 case 1:
                     parentSession.SendText("You'll regret it!");
                     parentSession.FightThisMonster(whiteDragonFight);
-                    parentSession.SendText("\nYou defeated White Dragon! You take all the gold but...there's no key.");
+                    parentSession.SendText("\nYou defeated White Dragon! But...there's no key.");
+                    princess.Strategy = new PrincessGratefulStrategy();
                     parentSession.UpdateStat(8, 100);
                     break;
                 default:
                     parentSession.SendText("Wait, you're that one who stole gold from a Gnome, huh? You want my gold too, don't you? You won't leave here alive!");
                     parentSession.FightThisMonster(whiteDragonFight);
-                    parentSession.SendText("\nYou defeated White Dragon! You take all the gold but...there's no key.");
+                    parentSession.SendText("\nYou defeated White Dragon! But...there's no key.");
+                    princess.Strategy = new PrincessGratefulStrategy();
                     break;
             }
         }

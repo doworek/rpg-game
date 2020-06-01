@@ -13,7 +13,8 @@ namespace Game.Engine
     [Serializable]
     public abstract class DisplayItem
     {
-        public string Name { get; protected set;  }
+      //  public string Name { get; protected set;  }
+        public string Name { get; protected set; }
         public virtual Image GetImage()
         {
             Image img = new Image();

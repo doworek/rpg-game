@@ -19,7 +19,7 @@ namespace Game.Engine
         private int currentNumber;
         // interactions
         private int shops = 1; // number of shops in the game world //20
-        private int interactions = 10; // number of all interactions (including shops) in the game world (can be slightly bigger due to quest constraints) //25
+        private int interactions = 5; // number of all interactions (including shops) in the game world (can be slightly bigger due to quest constraints) //25
         private List<Interaction> interactionList;
         // maps
         private MapMatrix[] matrix;

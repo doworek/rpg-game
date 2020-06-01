@@ -42,7 +42,7 @@ namespace Game.Engine
             while (timer.Enabled)
             {
                 // do not freeze the rest of application
-                if(Application.Current != null) 
+                if (Application.Current != null)
                     Application.Current.Dispatcher.Invoke(DispatcherPriority.Background, new Action(delegate { }));
             }
         }
@@ -83,13 +83,12 @@ namespace Game.Engine
             itemPositions.Add(i);
             RefreshItems();
         }
-
         private void RefreshItems()
         {
             // re-check for active items - both the game logic and the user may have changed them
             List<string> itemNames = GetActiveItemNames();
             List<Item> newItems = new List<Item>();
-            foreach(string itemName in itemNames)
+            foreach (string itemName in itemNames)
             {
                 Item tmp = Index.ProduceSpecificItem(itemName);
                 newItems.Add(tmp);

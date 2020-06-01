@@ -30,12 +30,12 @@ namespace Game.Engine.Interactions
             if (badEvent) // already visited this place and bad things happened 
             {
                 parentSession.SendText("\nYou again? Give me back my gold!");
-                parentSession.SendText("Gnome takes back " + stolen +  " gold from you.");
+                parentSession.SendText("Gnome takes back " + stolen + " gold from you.");
                 parentSession.UpdateStat(8, -stolen);
                 return;
             }
 
-            if (questChest.visited) 
+            if (questChest.visited)
             {
                 parentSession.SendText("\nSo you want to know where to find a key? Maybe I know...or maybe I don't. Let's play a game:");
                 parentSession.SendText("Let's roll a dice. If you get 5 or more I'll tell. If you lose, you'll pay me 10 gold.");
@@ -45,27 +45,28 @@ namespace Game.Engine.Interactions
                 switch (choice)
                 {
                     case 0:
-                     // if(parentSession.currentPlayer.Gold > 10) 
-                     //  { 
+                        if (parentSession.currentPlayer.Gold >= 15)
+                        {
                             parentSession.SendText("\nDo you want to buy some points?");
                             int choice2 = GetListBoxChoice(new List<string>() { "Yes", "No, I feel lucky today" });
                             if (choice2 == 0)
                             {
-                                 BuyPoints();
+                                BuyPoints();
                             }
                             else DiceGame(0);
-                      // }
-                      // else
-                      // {
-                      //      parentSession.SendText("\nYou need at least 10 gold to play.");
-                      //      return;
-                      //  }
+                        }
+                        else
+                        {
+                            parentSession.SendText("\nYou need at least 15 gold to play.");
+                            return;
+                        }
                         break;
                     default:
                         parentSession.SendText("\nGo away then.");
                         break;
                 }
-            }else
+            }
+            else
             {
                 // standard encounter
                 parentSession.SendText("\nWho are you? Nevermind, I'm busy.");

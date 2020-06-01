@@ -14,7 +14,7 @@ namespace Game.Engine.Monsters.MonsterFactories
         private int encounterNumber = 0; // how many times has this factory been used already?
         public override Monster Create(int playerLevel)
         {
-            if (encounterNumber <= 3) //
+            if (encounterNumber <= 2)
             {
                 encounterNumber++;
                 return new Wolf(playerLevel);
@@ -23,7 +23,7 @@ namespace Game.Engine.Monsters.MonsterFactories
         }
         public override System.Windows.Controls.Image Hint()
         {
-            if (encounterNumber == 0) return new Wolf(0).GetImage();
+            if (encounterNumber <= 2) return new Wolf(0).GetImage();
             else return null;
         }
     }

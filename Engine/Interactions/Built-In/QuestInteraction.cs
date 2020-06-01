@@ -1,5 +1,6 @@
 ﻿using Game.Engine.Interactions.Built_In;
 using Game.Engine.Items;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,18 +15,21 @@ namespace Game.Engine.Interactions
     class QuestInteraction : ImageInteraction
     {
         public bool visited = false; // has this place been visited?
+        public IQuestStrategy Strategy { get; set; } // store strategy 
         public QuestInteraction(GameSession ses) : base(ses)
         {
             Enterable = false;
             Name = "interaction0005";
-            displayedImageName = "interaction0005display";
+            Strategy = new QuestBeginStrategy();
         }
         protected override void RunContent()
         {
-            parentSession.SendText("\nOh-ho! You found a chest-quest!");
-            parentSession.SendText("You need a key to open this chest.");
-            parentSession.SendText("Your quest starts now: first find a Gnome.");
+            Strategy.Execute(parentSession, this); // execute strategy
             visited = true;
+        }
+        public void OpenChest()
+        {
+            displayedImageName = "interaction0005display";
         }
     }
 }

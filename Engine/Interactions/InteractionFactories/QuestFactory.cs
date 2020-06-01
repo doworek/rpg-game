@@ -1,4 +1,5 @@
-﻿using Game.Engine.Monsters;
+﻿using Game.Engine.Items;
+using Game.Engine.Monsters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,10 @@ namespace Game.Engine.Interactions.InteractionFactories
         {
             MysteryBoxInteraction mysteryBox = new MysteryBoxInteraction(parentSession);
             QuestInteraction quest = new QuestInteraction(parentSession);
-            WhiteDragonEncounter whiteDragon = new WhiteDragonEncounter(parentSession);
+            PrincessEncounter princess = new PrincessEncounter(parentSession, quest);
+            WhiteDragonEncounter whiteDragon = new WhiteDragonEncounter(parentSession, princess);
             GnomeEncounter gnome = new GnomeEncounter(parentSession, quest, whiteDragon);
-            return new List<Interaction>() {quest, gnome, whiteDragon, mysteryBox};
+            return new List<Interaction>() {quest, gnome, whiteDragon, mysteryBox, princess};
         }
     }
 }

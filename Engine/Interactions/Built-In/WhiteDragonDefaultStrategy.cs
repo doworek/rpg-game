@@ -13,7 +13,7 @@ namespace Game.Engine.Interactions.Built_In
     [Serializable]
     class WhiteDragonDefaultStrategy : IWhiteDragonStrategy
     {
-        public void Execute(GameSession parentSession)
+        public void Execute(GameSession parentSession, PrincessEncounter princess)
         {
             Dragon dragon = new Dragon(parentSession.currentPlayer.Level);
             parentSession.SendText("Don't bother me!");

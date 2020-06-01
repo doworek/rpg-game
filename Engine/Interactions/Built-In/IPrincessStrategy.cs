@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Interactions.Built_In
 {
-   interface IWhiteDragonStrategy
+    interface IPrincessStrategy
     {
-        void Execute(GameSession ses, PrincessEncounter princess);
+        void Execute(GameSession ses, QuestInteraction quest);
     }
 }
