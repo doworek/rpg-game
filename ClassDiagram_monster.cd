@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Game.Engine.Monsters.Monster" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAUAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\Monster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.Wolf">
+    <Position X="9.25" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\Wolf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.DragonEvolved">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\DragonEvolved.cs</FileName>
+      <NewMemberFileName>Engine\Monsters\RatEvolved.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.MonsterFactories.MonsterFactory" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>Engine\Monsters\MonsterFactories\MonsterFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.MonsterFactories.WolfFactory">
+    <Position X="5.5" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\MonsterFactories\WolfFactory.cs</FileName>
+      <NewMemberFileName>Engine\Monsters\MonsterFactories\RatFactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.Dragon">
+    <Position X="12" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\Dragon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.Rat">
+    <Position X="4.25" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\Rat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.MonsterFactories.DragonFactory">
+    <Position X="8.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\MonsterFactories\DragonFactory.cs</FileName>
+      <NewMemberFileName>Engine\Monsters\MonsterFactories\RatFactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.MonsterFactories.RatFactory" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\MonsterFactories\RatFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

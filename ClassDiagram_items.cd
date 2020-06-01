@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game.Engine.Items.Axe" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\Axe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.BasicAxe" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\BasicAxe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.BasicSpear" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\BasicSpear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.BasicStaff" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\BasicStaff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.AncientSword">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\AncientSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.Item" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCBAAAAACAIBBAIQAAAAAAAAgBBAAAAgAAAAAAACAgA=</HashCode>
+      <FileName>Engine\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.Spear" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\Spear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.Staff" Collapsed="true">
+    <Position X="17.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.Key" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\Key.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.BasicArmor.AntiMagicArmor" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\BasicArmor\AntiMagicArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.BasicArmor.BerserkerArmor" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Engine\Items\BasicArmor\BerserkerArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.BasicArmor.GrowingStoneArmor" Collapsed="true">
+    <Position X="19.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\BasicArmor\GrowingStoneArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.BasicArmor.SteelArmor" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\BasicArmor\SteelArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.ItemFactories.SwordFactory">
+    <Position X="22.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\ItemFactories\SwordFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Items.MagicSword">
+    <Position X="6.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\MagicSword.cs</FileName>
+      <NewMemberFileName>Engine\Items\BasicSword.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.GoldenSword">
+    <Position X="6.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\GoldenSword.cs</FileName>
+      <NewMemberFileName>Engine\Items\BasicSword.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.BasicSword" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\BasicSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Items.ItemFactories.BasicArmorFactory" Collapsed="true">
+    <Position X="25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\ItemFactories\BasicArmorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Game.Engine.Items.ItemFactories.ItemFactory">
+    <Position X="22.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Items\ItemFactories\ItemFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game.Engine.Skills.BasicSkills.SuperStrengthPotionDecorator">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicPotions\SuperStrengthPotionDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.FireArrowDecorator">
+    <Position X="14.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\FireArrowDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.LightFlash">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\LightFlash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.MagicalPotionDecorator">
+    <Position X="19.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicPotions\MagicalPotionDecorator.cs</FileName>
+      <NewMemberFileName>Engine\Skills\BasicSpells\LightFlashDecorator.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.FloodPotionDecorator">
+    <Position X="17" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicPotions\FloodPotionDecorator.cs</FileName>
+      <NewMemberFileName>Engine\Skills\BasicSpells\WindGustDecorator.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicWeaponMoves.AxeCut">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicWeaponMoves\AxeCut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicWeaponMoves.SpearStab" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicWeaponMoves\SpearStab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicWeaponMoves.SwordSlash">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicWeaponMoves\SwordSlash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.Skill" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACQIAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Engine\Skills\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.SkillDecorator" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.SkillFactories.BasicPotionFactory" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillFactories\BasicPotionFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Game.Engine.Skills.SkillFactories.BasicWeaponMoveFactory" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillFactories\BasicWeaponMoveFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.FloodPotion" Collapsed="true">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicPotions\FloodPotion.cs</FileName>
+      <NewMemberFileName>Engine\Skills\BasicSpells\WindGust.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.MagicalPotion" Collapsed="true">
+    <Position X="21.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicPotions\MagicalPotion.cs</FileName>
+      <NewMemberFileName>Engine\Skills\BasicSpells\FireArrow.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.SkillFactories.BasicSpellFactory" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillFactories\BasicSpellFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.FireArrow" Collapsed="true">
+    <Position X="22.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\FireArrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.WindGust" Collapsed="true">
+    <Position X="19" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\WindGust.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.WindGustDecorator" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\WindGustDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.SuperStrengthPotion" Collapsed="true">
+    <Position X="17.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicPotions\SuperStrengthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Game.Engine.Skills.SkillFactories.SkillFactory">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillFactories\SkillFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

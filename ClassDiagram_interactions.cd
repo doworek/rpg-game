@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game.Engine.Interactions.GymirEncounter">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAgAAAAAAAQAAAACAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\GymirEncounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.HymirEncounter">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\HymirEncounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.ShopInteraction">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\ShopInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.SkillForgetInteraction">
+    <Position X="14.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\SkillForgetInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.ConsoleInteraction">
+    <Position X="6.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Engine\Interactions\ConsoleInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.ImageInteraction">
+    <Position X="10" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Engine\Interactions\ImageInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.Interaction">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Engine\Interactions\Interaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.ListBoxInteraction">
+    <Position X="13.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Engine\Interactions\ListBoxInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.HymirFriendlyStrategy" BaseTypeListCollapsed="true">
+    <Position X="21.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\HymirFriendlyStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.HymirHostileStrategy" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\HymirHostileStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.HymirNeutralStrategy" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\HymirNeutralStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.InteractionFactories.GymirHymirFactory" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\InteractionFactories\GymirHymirFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.InteractionFactories.QuestFactory" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\InteractionFactories\QuestFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.MysteryBoxInteraction">
+    <Position X="6.25" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\MysteryBoxInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.WhiteDragonEncounter">
+    <Position X="15" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\WhiteDragonEncounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.WhiteDragonDefaultStrategy">
+    <Position X="19.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\WhiteDragonDefaultStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.WhiteDragonAggressiveStrategy">
+    <Position X="24.25" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\WhiteDragonAggressiveStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.WhiteDragonNormalStrategy">
+    <Position X="21.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\WhiteDragonNormalStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.GnomeEncounter">
+    <Position X="12.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAEBEAAAAABQAAAAgA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\GnomeEncounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.PrincessEncounter">
+    <Position X="15" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\PrincessEncounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.PrincessNormalStrategy">
+    <Position X="22" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\PrincessNormalStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.PrincessGratefulStrategy">
+    <Position X="24.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\PrincessGratefulStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.Built_In.PrincessDefaultStrategy">
+    <Position X="19.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\PrincessDefaultStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.QuestCompleteStrategy">
+    <Position X="22" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\QuestCompleteStrategy.cs</FileName>
+      <NewMemberFileName>Engine\Interactions\Built-In\QuestBeginStrategy.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Interactions.QuestBeginStrategy">
+    <Position X="19.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\QuestBeginStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.DisplayItem" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\DisplayItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.QuestInteraction" Collapsed="true">
+    <Position X="10" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\QuestInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Interactions.InteractionFactories.SkillForgetFactory" Collapsed="true">
+    <Position X="26.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\InteractionFactories\SkillForgetFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Game.Engine.Interactions.Built_In.IHymirStrategy">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\IHymirStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Engine.Interactions.InteractionFactories.InteractionFactory">
+    <Position X="19.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\InteractionFactories\InteractionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Engine.Interactions.Built_In.IQuestStrategy">
+    <Position X="24" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\IQuestStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Engine.Interactions.Built_In.IWhiteDragonStrategy">
+    <Position X="21.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\IWhiteDragonStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Engine.Interactions.Built_In.IPrincessStrategy" Collapsed="true">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interactions\Built-In\IPrincessStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
