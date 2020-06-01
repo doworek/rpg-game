@@ -1,5 +1,5 @@
 # RPG game
-This is an oldschool RPG game project for C# programming university course. The aim was to use some design patterns and OOP in a real life application. The basic code comes from: https://github.com/JakubChecinski/GameC. Important to note: it's still a work in progress!
+This is an oldschool RPG game project for C# programming university course. The aim was to use some design patterns and OOP in a real life application. The basic code comes from: https://github.com/JakubChecinski/GameC.
 Classes added by me:
 
 1 )in "Monster":
